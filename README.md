@@ -30,9 +30,12 @@ git clone https://github.com/yourusername/user-access-level-module.git
 3. Set up your environment variables:
 
 Create a .env file in the root directory and configure the following variables:
+
+```bash
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/user-access-level
 JWT_SECRET=yourjsonwebtokensecret
+```
 
 4. Start the server:
 
