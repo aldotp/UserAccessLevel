@@ -41,6 +41,6 @@ JWT_SECRET=yourjsonwebtokensecret
 npm start
 ```
 
-5. Test the endpoints using a tool like Postman or cURL.
+5. Testing
 
-export file postman collection on folder 'collection'
+Export file postman collection on folder 'collection'
