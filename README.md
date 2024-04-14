@@ -21,7 +21,7 @@ git clone https://github.com/yourusername/user-access-level-module.git
 2. Install dependencies:
 
 ```bash
-  cd user-access-level-module
+  cd user-access-level
   npm install
 ```
 
