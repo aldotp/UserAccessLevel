@@ -1,6 +1,5 @@
 const dotenv = require("dotenv");
 
-// Load environment variable
 dotenv.config();
 
 module.exports = {
