@@ -7,8 +7,6 @@ This project is a Node.js application built with Express.js and MongoDB (using M
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
-- bcryptjs (for password hashing)
-- jsonwebtoken (for authentication)
 
 ## Getting Started
 
