@@ -7,6 +7,7 @@ const classroomRoutes = require("./routes/classroom");
 const exerciseRoutes = require("./routes/exercise");
 const leaderboardRoutes = require("./routes/leaderboard");
 const userRoutes = require("./routes/user");
+const cors = require("cors");
 
 const app = express();
 
@@ -28,6 +29,7 @@ mongoose
 
 // Middleware
 app.use(express.json());
+app.use(cors());
 
 // Routes
 app.use("/api/auth", authRoutes);
