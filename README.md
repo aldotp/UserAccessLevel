@@ -44,3 +44,7 @@ npm start
 5. Testing
 
 Export file postman collection on folder 'collection'
+
+## Deployed API
+
+- https://user-access-level-fwamj5bl9-aldo-tri-pangestus-projects.vercel.app

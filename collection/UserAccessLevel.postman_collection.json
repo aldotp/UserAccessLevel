@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "21c07cb8-c944-4c1a-b35d-346be75ca777",
-		"name": "UserAccessLevel",
+		"name": "User Access Level",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "19874365"
 	},
@@ -33,12 +33,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/mentor/mentees",
-							"protocol": "http",
+							"raw": "{{url}}/api/mentor/mentees",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"mentor",
@@ -69,12 +67,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/mentor/assign",
-							"protocol": "http",
+							"raw": "{{url}}/api/mentor/assign",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"mentor",
@@ -113,12 +109,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/classroom",
-							"protocol": "http",
+							"raw": "{{url}}/api/classroom",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"classroom"
@@ -148,12 +142,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/classroom",
-							"protocol": "http",
+							"raw": "{{url}}/api/classroom",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"classroom"
@@ -174,12 +166,10 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8080/api/classroom/661561d88653ebdf6379062f",
-							"protocol": "http",
+							"raw": "{{url}}/api/classroom/661561d88653ebdf6379062f",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"classroom",
@@ -210,12 +200,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/classroom/6615615cf06b4eedddedba1a/exercises/661525cabb6dae6081fe3756",
-							"protocol": "http",
+							"raw": "{{url}}/api/classroom/6615615cf06b4eedddedba1a/exercises/661525cabb6dae6081fe3756",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"classroom",
@@ -248,12 +236,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/classroom/661a9d7c866d3ae6172c9d29/addExercise",
-							"protocol": "http",
+							"raw": "{{url}}/api/classroom/661a9d7c866d3ae6172c9d29/addExercise",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"classroom",
@@ -285,12 +271,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/classroom/6615615cf06b4eedddedba1a/addMentor",
-							"protocol": "http",
+							"raw": "{{url}}/api/classroom/6615615cf06b4eedddedba1a/addMentor",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"classroom",
@@ -322,12 +306,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/classroom/complete/exercise",
-							"protocol": "http",
+							"raw": "{{url}}/api/classroom/complete/exercise",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"classroom",
@@ -367,12 +349,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/leaderboard",
-							"protocol": "http",
+							"raw": "{{url}}/api/leaderboard",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"leaderboard"
@@ -410,12 +390,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/users",
-							"protocol": "http",
+							"raw": "{{url}}/api/users",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"users"
@@ -448,12 +426,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/users/profile",
-							"protocol": "http",
+							"raw": "{{url}}/api/users/profile",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"users",
@@ -489,12 +465,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/exercise/add",
-							"protocol": "http",
+							"raw": "{{url}}/api/exercise/add",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"exercise",
@@ -528,12 +502,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/exercise",
-							"protocol": "http",
+							"raw": "{{url}}/api/exercise",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"exercise"
@@ -575,7 +547,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"username\":\"mentor1\",\r\n    \"password\":\"123456\"\r\n}",
+					"raw": "{\r\n    \"username\":\"mamba\",\r\n    \"password\":\"123456\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -583,12 +555,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/auth/login",
-					"protocol": "http",
+					"raw": "{{url}}/api/auth/login",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"auth",
@@ -605,7 +575,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"username\":\"mentee2\",\r\n    \"password\":\"123456\"\r\n}",
+					"raw": "{\r\n    \"username\":\"mamba\",\r\n    \"password\":\"123456\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -613,12 +583,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/auth/register",
-					"protocol": "http",
+					"raw": "{{url}}/api/auth/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"auth",
