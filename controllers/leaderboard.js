@@ -3,7 +3,7 @@ const Classroom = require("../models/classroom");
 
 const getLeaderboard = async (req, res) => {
   try {
-    const classrooms = await Classroom.find();
+    const classrooms = await Classroom.find().populate("mentor", "username");
     const leaderboardData = [];
 
     for (const classroom of classrooms) {
