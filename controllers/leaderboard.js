@@ -15,7 +15,9 @@ const getLeaderboard = async (req, res) => {
         .select("id username score completedExercises")
         .lean();
 
-      const mentor = await User.findOne({ id: classroom.mentor });
+      const mentor = await User.findById(classroom.mentor).select(
+        "_id username"
+      );
 
       // Sort the mentees array by score in descending order
       mentees.sort((a, b) => b.score - a.score);
